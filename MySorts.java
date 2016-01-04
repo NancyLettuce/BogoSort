@@ -74,6 +74,7 @@ public class MySorts {
 	System.out.println();
 	
   	///////////////////BogoSort/////////////////////////
+	System.out.println("BogoSort");
 	System.out.println( "ArrayList glen before sorting:\n" + glen );
         BogoSort.selectionSortV(glen);
 	System.out.println( "ArrayList glen after sorting:\n" + glen );
