@@ -14,18 +14,7 @@ import java.util.ArrayList;
 public class SelectionSort {
 
     //~~~~~~~~~~~~~~~~~~~ HELPER METHODS ~~~~~~~~~~~~~~~~~~~
-    //precond: lo < hi && size > 0
-    //postcond: returns an ArrayList of random integers
-    //          from lo to hi, inclusive
-    public static ArrayList populate( int size, int lo, int hi ) {
-	ArrayList<Integer> retAL = new ArrayList<Integer>();
-	while( size > 0 ) {
-	    //     offset + rand int on interval [lo,hi]
-	    retAL.add( lo + (int)( (hi-lo+1) * Math.random() ) );
-	    size--;
-	}
-	return retAL;
-    }
+
 
     //randomly rearrange elements of an ArrayList
     public static void shuffle( ArrayList al ) {
